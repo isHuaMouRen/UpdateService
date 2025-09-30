@@ -15,6 +15,8 @@
 ## 目录
 
 `[根目录]`<br>
+├ `test`<br>
+│  └ `versions.json` - 测试版本列表<br>
 ├ `index.json` - 索引文件<br>
 ├ `README.en.md` - 英文版本自述文件<br>
 └ `README.md` - 中文版本自述文件(默认)<br>

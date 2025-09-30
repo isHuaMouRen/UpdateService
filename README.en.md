@@ -14,6 +14,8 @@ This repository is used to store the update check service information for my pro
 ## Directory
 
 `[Root Directory]`<br>
+├ `test`<br>
+│  └ `versions.json` - Version list test<br>
 ├ `index.json` - Index file<br>
 ├ `README.en.md` - English version of the README<br>
 └ `README.md` - Chinese version of the README (default)<br>
