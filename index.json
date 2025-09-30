@@ -1,7 +1,8 @@
 {
     "url": {
         "github": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main",
-        "bgithub": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main"
+        "bgithub": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main",
+        "gitee": "https://gitee.com/huamouren110/UpdateService/raw/main"
     },
     "index": {}
 }
