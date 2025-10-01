@@ -11,6 +11,13 @@
                 "bgithub": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/test/versions.json",
                 "gitee": "https://gitee.com/huamouren110/UpdateService/raw/main/test/versions.json"
             }
+        },
+        "ARCV4":{
+            "url":{
+                "github": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/versions.json",
+                "bgithub": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/versions.json",
+                "gitee": "https://gitee.com/huamouren110/UpdateService/raw/main/ARCV4/versions.json"
+            }
         }
     }
 }

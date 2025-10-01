@@ -1,0 +1,26 @@
+{
+    "latest": {
+        "release": {
+            "version": "1.0.0.0",
+            "index": 1
+        },
+        "pre-release": {
+            "version": "1.1.0.0",
+            "index": 0
+        }
+    },
+    "versions": [
+        {
+            "version": "1.1.0.0",
+            "type": "pre-release",
+            "update_date": "1970.01.01 00:00:01",
+            "url": "https://www.xxx.com"
+        },
+        {
+            "version": "1.0.0.0",
+            "type": "release",
+            "update_date": "1970.01.01 00:00:00",
+            "url": "https://www.xxx.com"
+        }
+    ]
+}
