@@ -9,6 +9,7 @@
             "owner": [
                 "isHuaMouRen"
             ],
+            "repo": null,
             "url": {
                 "github": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/test/versions.json",
                 "bgithub": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/test/versions.json",
@@ -19,6 +20,7 @@
             "owner": [
                 "Xiaowang0229"
             ],
+            "repo": "https://github.com/Xiaowang0229/ARCV4",
             "url": {
                 "github": {
                     "LatestLink": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLink",
@@ -27,8 +29,8 @@
                 },
                 "bgithub": {
                     "LatestLink": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLink",
-                    "LatestLog": "hhttps://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLog",
-                    "LatestVersion": "hhttps://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestVersion"
+                    "LatestLog": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLog",
+                    "LatestVersion": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestVersion"
                 },
                 "gitee": {
                     "LatestLink": "https://gitee.com/huamouren110/UpdateService/raw/main/ARCV4/LatestLink",
