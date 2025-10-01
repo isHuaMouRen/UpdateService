@@ -11,11 +11,9 @@ This repository is used to store the update check service information for my pro
 - **bGithub (China mirror)**: https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main
 - **Gitee**: https://gitee.com/huamouren110/UpdateService/raw/main
 
-## Directory
+## Projects
 
-`[Root Directory]`<br>
-├ `test`<br>
-│  └ `versions.json` - Version list test<br>
-├ `index.json` - Index file<br>
-├ `README.en.md` - English version of the README<br>
-└ `README.md` - Chinese version of the README (default)<br>
+|Project name|Description|Owner|Repo link|
+|-|-|-|-|
+|ARCV4|ARCV4 File repository|[Xiaowang0229](https://github.com/Xiaowang0229)|[Skip](https://github.com/Xiaowang0229/ARCV4)|
+|test|The project used for testing the file structure|[isHuaMouRen](https://github.com/isHuaMouRen)|*None*|

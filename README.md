@@ -12,11 +12,9 @@
 - **bGithub(国内镜像)** https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main
 - **Gitee** https://gitee.com/huamouren110/UpdateService/raw/main
 
-## 目录
+## 项目
 
-`[根目录]`<br>
-├ `test`<br>
-│  └ `versions.json` - 测试版本列表<br>
-├ `index.json` - 索引文件<br>
-├ `README.en.md` - 英文版本自述文件<br>
-└ `README.md` - 中文版本自述文件(默认)<br>
+|项目名|描述|所有者|仓库链接|
+|-|-|-|-|
+|ARCV4|ARCV4 File repository|[Xiaowang0229](https://github.com/Xiaowang0229)|[跳转](https://github.com/Xiaowang0229/ARCV4)|
+|test|用于测试文件结构的项目|[isHuaMouRen](https://github.com/isHuaMouRen)|*None*|
