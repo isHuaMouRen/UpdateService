@@ -6,17 +6,35 @@
     },
     "index": {
         "test": {
+            "owner": [
+                "isHuaMouRen"
+            ],
             "url": {
                 "github": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/test/versions.json",
                 "bgithub": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/test/versions.json",
                 "gitee": "https://gitee.com/huamouren110/UpdateService/raw/main/test/versions.json"
             }
         },
-        "ARCV4":{
-            "url":{
-                "github": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/versions.json",
-                "bgithub": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/versions.json",
-                "gitee": "https://gitee.com/huamouren110/UpdateService/raw/main/ARCV4/versions.json"
+        "ARCV4": {
+            "owner": [
+                "Xiaowang0229"
+            ],
+            "url": {
+                "github": {
+                    "LatestLink": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLink",
+                    "LatestLog": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLog",
+                    "LatestVersion": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestVersion"
+                },
+                "bgithub": {
+                    "LatestLink": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLink",
+                    "LatestLog": "hhttps://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLog",
+                    "LatestVersion": "hhttps://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestVersion"
+                },
+                "gitee": {
+                    "LatestLink": "https://gitee.com/huamouren110/UpdateService/raw/main/ARCV4/LatestLink",
+                    "LatestLog": "https://gitee.com/huamouren110/UpdateService/raw/main/ARCV4/LatestLog",
+                    "LatestVersion": "https://gitee.com/huamouren110/UpdateService/raw/main/ARCV4/LatestVersion"
+                }
             }
         }
     }
