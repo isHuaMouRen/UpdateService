@@ -7,7 +7,7 @@
         "release_url": "https://release.xxx.com",
         "is_full_update": false
     },
-    "pre-release": {
+    "pre_release": {
         "latest_version": "Pre-Release1.1.0.0",
         "release_time": "1970.01.01 00:01",
         "release_log": "# Pre-Release 1.1.0.0 Change log\r\n## Update\r\n- Item1\r\n- Item2\r\n- Item3\r\n## Change\r\n- Item1\r\n- Item2\r\n- Item3\r\n## Fix\r\n- Item1\r\n- Item2\r\n- Item3",
