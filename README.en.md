@@ -10,6 +10,7 @@ This repository is used to store the update check service information for my pro
 - **Github**: https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main
 - **bGithub (China mirror)**: https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main
 - **Gitee**: https://gitee.com/huamouren110/UpdateService/raw/main
+- **Gitcode** https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main
 
 ## Projects
 

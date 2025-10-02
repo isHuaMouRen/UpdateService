@@ -11,6 +11,7 @@
 - **Github** https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main
 - **bGithub(国内镜像)** https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main
 - **Gitee** https://gitee.com/huamouren110/UpdateService/raw/main
+- **Gitcode** https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main
 
 ## 项目
 
