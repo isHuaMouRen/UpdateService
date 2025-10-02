@@ -1,0 +1,16 @@
+{
+    "release": {
+        "latest_version": "Release 1.0.0.0",
+        "release_time": "1970.01.01 00:00",
+        "release_log": "# Change log\n## Fix\n- Fixed some bug",
+        "url": "https://www.xxx.com",
+        "is_full_update": false
+    },
+    "pre-release":{
+        "latest_version": "Pre-Release1.1.0.0",
+        "release_time": "1970.01.01 00:01",
+        "release_log": "# Change log\n## Remove\n- Removed Him",
+        "url": "https://www.xxx.com",
+        "is_full_update": true
+    }
+}
