@@ -6,7 +6,7 @@
 
 This repository is used to store the update check service information for my programs.
 
-**Raw URLs**
+**Root Raw URLs**
 - **Github**: https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main
 - **bGithub (China mirror)**: https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main
 - **Gitee**: https://gitee.com/huamouren110/UpdateService/raw/main
