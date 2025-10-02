@@ -6,11 +6,11 @@
 
 此仓库用于存储我程序的更新检测服务信息
 
-**RootRawURL**
-- **Github** https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main
-- **bGithub(国内镜像)** https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main
-- **Gitee** https://gitee.com/huamouren110/UpdateService/raw/main
-- **Gitcode** https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main
+**Index URL**
+- **Github** https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/index.json
+- **bGithub(国内镜像)** https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/index.json
+- **Gitee** https://gitee.com/huamouren110/UpdateService/raw/main/index.json
+- **Gitcode** https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/index.json
 
 ## 储存库
 
