@@ -4,12 +4,12 @@
             "isHuaMouRen"
         ],
         "repo": null,
-        "url": {
-            "github": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/test/latest.json",
-            "bgithub": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/test/latest.json",
-            "gitee": "https://gitee.com/huamouren110/UpdateService/raw/main/test/latest.json",
-            "gitcode": "https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/test/latest.json"
-        }
+        "url": [
+            "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/test/latest.json",
+            "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/test/latest.json",
+            "https://gitee.com/huamouren110/UpdateService/raw/main/test/latest.json",
+            "https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/test/latest.json"
+        ]
     },
     "ARCV4": {
         "owner": [
@@ -17,26 +17,24 @@
         ],
         "repo": "https://github.com/Xiaowang0229/ARCV4",
         "url": {
-            "github": {
-                "LatestLink": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLink",
-                "LatestLog": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLog",
-                "LatestVersion": "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestVersion"
-            },
-            "bgithub": {
-                "LatestLink": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLink",
-                "LatestLog": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLog.md",
-                "LatestVersion": "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestVersion"
-            },
-            "gitee": {
-                "LatestLink": "https://gitee.com/huamouren110/UpdateService/raw/main/ARCV4/LatestLink",
-                "LatestLog": "https://gitee.com/huamouren110/UpdateService/raw/main/ARCV4/LatestLog",
-                "LatestVersion": "https://gitee.com/huamouren110/UpdateService/raw/main/ARCV4/LatestVersion"
-            },
-            "gitcode": {
-                "LatestLink": "https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/ARCV4/LatestLink",
-                "LatestLog": "https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/ARCV4/LatestLog",
-                "LatestVersion": "https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/ARCV4/LatestVersion"
-            }
+            "LatestLink": [
+                "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLink",
+                "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLink",
+                "https: //gitee.com/huamouren110/UpdateService/raw/main/ARCV4/LatestLink",
+                "https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/ARCV4/LatestLink"
+            ],
+            "LatestLog": [
+                "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLog",
+                "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestLog.md",
+                "https://gitee.com/huamouren110/UpdateService/raw/main/ARCV4/LatestLog",
+                "https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/ARCV4/LatestLog"
+            ],
+            "LatestVersion": [
+                "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestVersion",
+                "https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/ARCV4/LatestVersion",
+                "https://gitee.com/huamouren110/UpdateService/raw/main/ARCV4/LatestVersion",
+                "https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/ARCV4/LatestVersion"
+            ]
         }
     }
 }
