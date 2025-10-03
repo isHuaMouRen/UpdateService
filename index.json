@@ -5,18 +5,12 @@
         "https://gitee.com/huamouren110/UpdateService/raw/main/",
         "https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/"
     ],
-    "projects": {
-        "test": {
-            "repo": null,
-            "url_path": "test/latest.json"
-        },
+    "url_paths": {
+        "test": "test/latest.json",
         "ARCV4": {
-            "repo": "https://github.com/Xiaowang0229/ARCV4",
-            "url_path": {
-                "LatestLink": "ARCV4/LatestLink",
-                "LatestLog": "ARCV4/LatestLog",
-                "LatestVersion": "ARCV4/LatestVersion"
-            }
+            "LatestLink": "ARCV4/LatestLink",
+            "LatestLog": "ARCV4/LatestLog",
+            "LatestVersion": "ARCV4/LatestVersion"
         }
     }
 }
