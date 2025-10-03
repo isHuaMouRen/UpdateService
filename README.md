@@ -6,7 +6,9 @@
 
 此仓库用于存储我程序的更新检测服务信息
 
-**Index URL**
+[贡献指南](/CONTRIBUTING.md)
+
+## Index URL
 - **Github** https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/index.json
 - **bGithub(国内镜像)** https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/index.json
 - **Gitee** https://gitee.com/huamouren110/UpdateService/raw/main/index.json

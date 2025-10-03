@@ -6,7 +6,9 @@
 
 This repository is used to store the update check service information for my programs.
 
-**Index URL**  
+[Contributing guide](/CONTRIBUTING.md)
+
+## Index URL
 - **Github**: https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/index.json
 - **bGithub (China mirror)**: https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/index.json
 - **Gitee**: https://gitee.com/huamouren110/UpdateService/raw/main/index.json
