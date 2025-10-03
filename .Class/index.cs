@@ -1,22 +1,19 @@
 public class JsonConfig
 {
-    public class Root
+    public class Root//根
     {
-        public JsonConfig.Project your_proj_name{ get; set; }
+        public string[] root_url{ get; set; }//根url
+        public JsonConfig.Projects projects { get; set; }//项目集
     }
 
-    public class Project
+    public class Projects
     {
-        public string[] owner { get; set; }
-        public string repo { get; set; }
-        public JsonConfig.UrlInfo url { get; set; }
+        public JsonConfig.ProjectInfo test{ get; set; }//填写你的项目名，此以test为示例
     }
 
-    public class UrlInfo
+    public class ProjectInfo//项目信息，根据你的情况改变
     {
-        public string github { get; set; }
-        public string bgithub { get; set; }
-        public string gitee { get; set; }
-        public string gitcode { get; set; }
+        public string repo { get; set; }//仓库
+        public string url_path { get; set; }//url路径，需与根url拼接
     }
 }
