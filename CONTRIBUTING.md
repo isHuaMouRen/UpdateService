@@ -17,6 +17,7 @@
 |`[GLOBAL]`|仓库根目录|
 |`[GITHUB]`|`.github` 文件夹|
 |`[CLASS]`|`.Class` 文件夹|
+|`[PR]`|通过拉取请求提交的更改|
 |`[项目名]`|某个具体的项目|
 
 示例: 修改了仓库根目录下的 `READMD.md` 文件，那么需命名为 `[GLOBAL] 更改READMD.md`
