@@ -18,6 +18,7 @@ jobs:
 
       - name: Wait for mergeable state
         run: |
+          echo "Checking mergeable state for PR #${{ github.event.pull_request.number }}"
           for i in {1..10}; do
             MERGEABLE=$(gh pr view ${{ github.event.pull_request.number }} --json mergeable --jq .mergeable)
             if [ "$MERGEABLE" = "MERGEABLE" ]; then
@@ -25,15 +26,15 @@ jobs:
               echo "mergeable=true" >> $GITHUB_OUTPUT
               break
             elif [ "$MERGEABLE" = "CONFLICTING" ]; then
-              echo "PR has conflicts"
+              echo "PR has conflicts, cannot merge"
               echo "mergeable=false" >> $GITHUB_OUTPUT
               exit 0
             fi
-            echo "Mergeable state not ready, waiting..."
+            echo "Mergeable state not ready, waiting... (Attempt $i/10)"
             sleep 5
           done
           if [ -z "$MERGEABLE" ]; then
-            echo "Failed to determine mergeable state"
+            echo "Error: Failed to determine mergeable state after 10 attempts"
             echo "mergeable=false" >> $GITHUB_OUTPUT
             exit 1
           fi
@@ -43,21 +44,14 @@ jobs:
 
       - name: Auto-merge PR
         if: steps.check-merge.outputs.mergeable == 'true'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
-               -H "Accept: application/vnd.github+json" \
-               -X PUT \
-               -d '{"merge_method":"merge"}' \
-               https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/merge
+          echo "Attempting to merge PR #${{ github.event.pull_request.number }}"
+          gh pr merge ${{ github.event.pull_request.number }} --merge --admin
           if [ $? -eq 0 ]; then
             echo "PR merged successfully"
-            # 可选：删除源分支
-            gh api -X DELETE \
-              -H "Accept: application/vnd.github+json" \
-              /repos/${{ github.repository }}/git/refs/heads/${{ github.event.pull_request.head.ref }}
           else
-            echo "Failed to merge PR"
+            echo "Error: Failed to merge PR"
             exit 1
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
