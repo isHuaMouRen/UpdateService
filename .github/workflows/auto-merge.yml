@@ -1,26 +1,22 @@
-name: Auto Merge PR
+name: Auto Merge Fork PRs
 
 on:
   pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
-      - ready_for_review
-
-permissions:
-  contents: write
-  pull-requests: write
+    types: [opened, synchronize, reopened, ready_for_review]
 
 jobs:
   automerge:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
     steps:
-      - name: Auto merge PRs when all checks pass
+      - name: Auto-merge eligible PRs
         uses: pascalgn/automerge-action@v0.16.4
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           MERGE_METHOD: merge
-          MERGE_LABELS: ""       # 禁用标签要求
-          MERGE_COMMIT_MESSAGE: title+body
           MERGE_DELETE_BRANCH: true
+          MERGE_RETRY_SLEEP: 10000
+          MERGE_RETRIES: 6
