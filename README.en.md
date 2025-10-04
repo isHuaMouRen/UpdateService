@@ -25,3 +25,6 @@ This repository is used to store the update check service information for my pro
 |--------------|------------|-------|----------------|
 | ARCV4        | ARCV4 File repository | [Xiaowang0229](https://github.com/Xiaowang0229) | [Link](https://github.com/Xiaowang0229/ARCV4) |
 | test         | Project for testing file structure | [isHuaMouRen](https://github.com/isHuaMouRen) | *None* |
+
+## Star chart
+[![Stargazers over time](https://starchart.cc/isHuaMouRen/UpdateService.svg?variant=adaptive)](https://starchart.cc/isHuaMouRen/UpdateService)
