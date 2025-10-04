@@ -1,0 +1,20 @@
+name: Auto Merge PR
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Auto Merge PR
+        uses: pascalgn/automerge-action@v0.16.4
+        with:
+          mergeMethod: squash         
+          commitMessage: title          
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          mergeType: merge        
