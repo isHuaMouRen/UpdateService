@@ -27,4 +27,4 @@
 |test|用于测试文件结构的项目|[isHuaMouRen](https://github.com/isHuaMouRen)|*None*|
 
 ## Star 趋势
-[![Stargazers over time](https://starchart.cc/isHuaMouRen/UpdateService.svg?variant=adaptive)](https://starchart.cc/isHuaMouRen/UpdateService)
+[![Stargazers over time](https://starchart.cc/isHuaMouRen/UpdateService.svg?variant=light)](https://starchart.cc/isHuaMouRen/UpdateService)
