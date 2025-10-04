@@ -4,28 +4,23 @@ on:
   pull_request:
     types:
       - opened
-      - synchronize
       - reopened
+      - synchronize
       - ready_for_review
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   automerge:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-
     steps:
-      - name: Auto merge all eligible PRs
+      - name: Auto merge PRs when all checks pass
         uses: pascalgn/automerge-action@v0.16.4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          merge-method: merge
-          # 可选：改成 squash 或 rebase，取决于你喜欢的合并方式
-          # merge-method: squash
-
-          # 禁用 label 触发，代表所有满足条件的 PR 都能自动合并
-          merge-labels: ""
-          # 如果你希望只自动合并特定来源的分支，可以加：
-          # merge-filter-author: "isHuaMouRen"
+          MERGE_METHOD: merge
+          MERGE_LABELS: ""       # 禁用标签要求
+          MERGE_COMMIT_MESSAGE: title+body
+          MERGE_DELETE_BRANCH: true
