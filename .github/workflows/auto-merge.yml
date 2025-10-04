@@ -1,0 +1,37 @@
+name: Auto Merge Pull Request
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.user.login != 'github-actions[bot]' # 避免自动合并机器人自己的 PR
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check mergeability
+        id: check-merge
+        run: |
+          # 检查 PR 是否有冲突
+          if [ "${{ github.event.pull_request.mergeable }}" = "true" ]; then
+            echo "PR is mergeable"
+            echo "mergeable=true" >> $GITHUB_OUTPUT
+          else
+            echo "PR has conflicts or is not mergeable"
+            echo "mergeable=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Auto-merge PR
+        if: steps.check-merge.outputs.mergeable == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 自动合并 PR
+          gh pr merge ${{ github.event.pull_request.number }} --auto --merge --delete-branch
