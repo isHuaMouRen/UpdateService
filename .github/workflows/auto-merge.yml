@@ -26,44 +26,7 @@ jobs:
       - name: Auto Merge PR
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          node -e "
-          const { Octokit } = require('@octokit/core');
-          const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-
-          async function autoMerge() {
-            const prNumber = ${{ github.event.pull_request.number }};
-            const owner = '${{ github.repository_owner }}';
-            const repo = '${{ github.event.repository.name }}';
-
-            try {
-              // 获取 PR 信息
-              const { data: pr } = await octokit.request('GET /repos/{owner}/{repo}/pulls/{pull_number}', {
-                owner,
-                repo,
-                pull_number: prNumber
-              });
-
-              // 检查 PR 是否可合并
-              if (pr.mergeable && !pr.draft && pr.state === 'open') {
-                // 自动合并 PR
-                await octokit.request('PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge', {
-                  owner,
-                  repo,
-                  pull_number: prNumber,
-                  commit_title: `Auto-merge PR #${prNumber}`,
-                  commit_message: 'Automatically merged by GitHub Actions',
-                  merge_method: 'merge'
-                });
-                console.log('PR successfully merged');
-              } else {
-                console.log('PR not merged: Not mergeable, is draft, or not open');
-              }
-            } catch (error) {
-              console.error('Error:', error.message);
-              process.exit(1);
-            }
-          }
-
-          autoMerge();
-          "
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO_OWNER: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
+        run: node .github/scripts/auto-merge.js
