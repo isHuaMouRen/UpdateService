@@ -11,47 +11,17 @@ permissions:
 jobs:
   automerge:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login != 'github-actions[bot]' # 避免机器人自己的 PR
+    if: github.event.pull_request.user.login != 'github-actions[bot]' && github.event.pull_request.draft == false
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Wait for mergeable state
-        run: |
-          echo "Checking mergeable state for PR #${{ github.event.pull_request.number }}"
-          for i in {1..10}; do
-            MERGEABLE=$(gh pr view ${{ github.event.pull_request.number }} --json mergeable --jq .mergeable)
-            if [ "$MERGEABLE" = "MERGEABLE" ]; then
-              echo "PR is mergeable"
-              echo "mergeable=true" >> $GITHUB_OUTPUT
-              break
-            elif [ "$MERGEABLE" = "CONFLICTING" ]; then
-              echo "PR has conflicts, cannot merge"
-              echo "mergeable=false" >> $GITHUB_OUTPUT
-              exit 0
-            fi
-            echo "Mergeable state not ready, waiting... (Attempt $i/10)"
-            sleep 5
-          done
-          if [ -z "$MERGEABLE" ]; then
-            echo "Error: Failed to determine mergeable state after 10 attempts"
-            echo "mergeable=false" >> $GITHUB_OUTPUT
-            exit 1
-          fi
+      - name: automerge
+        uses: pascalgn/automerge-action@v0.1.12
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        id: check-merge
-
-      - name: Auto-merge PR
-        if: steps.check-merge.outputs.mergeable == 'true'
-        run: |
-          echo "Attempting to merge PR #${{ github.event.pull_request.number }}"
-          gh pr merge ${{ github.event.pull_request.number }} --merge --admin
-          if [ $? -eq 0 ]; then
-            echo "PR merged successfully"
-          else
-            echo "Error: Failed to merge PR"
-            exit 1
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MERGE_LABELS: ""  # 可选：仅合并带特定标签的 PR，留空表示所有
+          MERGE_METHOD: merge  # 合并方式：merge（合并提交）、squash（压缩提交）、rebase（变基）
+          MERGE_COMMIT_MESSAGE: "Auto-merge PR #{{number}}: {{title}}"
+          MERGE_DELETE_BRANCH: true  # 合并后删除源分支
+          # 可选：添加更多条件
+          # MERGE_REMOVE_LABELS: merged  # 合并后移除标签
+          # MERGE_LABELS: approved  # 仅合并带 "approved" 标签的 PR
+          # UPDATE_LABELS: false  # 不更新 PR 标签
