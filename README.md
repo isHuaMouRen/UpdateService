@@ -25,3 +25,6 @@
 |-|-|-|-|
 |ARCV4|ARCV4 File repository|[Xiaowang0229](https://github.com/Xiaowang0229)|[跳转](https://github.com/Xiaowang0229/ARCV4)|
 |test|用于测试文件结构的项目|[isHuaMouRen](https://github.com/isHuaMouRen)|*None*|
+
+## Star 趋势
+[![Stargazers over time](https://starchart.cc/isHuaMouRen/UpdateService.svg?variant=adaptive)](https://starchart.cc/isHuaMouRen/UpdateService)
