@@ -1,27 +1,31 @@
-name: Auto Merge Pull Request
+name: Auto Merge PR
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened, ready_for_review]
-
-permissions:
-  contents: write
-  pull-requests: write
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
 
 jobs:
   automerge:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login != 'github-actions[bot]' && github.event.pull_request.draft == false
+    permissions:
+      contents: write
+      pull-requests: write
+
     steps:
-      - name: automerge
-        uses: pascalgn/automerge-action@v0.1.12
+      - name: Auto merge all eligible PRs
+        uses: pascalgn/automerge-action@v0.16.4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MERGE_LABELS: ""  # 可选：仅合并带特定标签的 PR，留空表示所有
-          MERGE_METHOD: merge  # 合并方式：merge（合并提交）、squash（压缩提交）、rebase（变基）
-          MERGE_COMMIT_MESSAGE: "Auto-merge PR #{{number}}: {{title}}"
-          MERGE_DELETE_BRANCH: true  # 合并后删除源分支
-          # 可选：添加更多条件
-          # MERGE_REMOVE_LABELS: merged  # 合并后移除标签
-          # MERGE_LABELS: approved  # 仅合并带 "approved" 标签的 PR
-          # UPDATE_LABELS: false  # 不更新 PR 标签
+        with:
+          merge-method: merge
+          # 可选：改成 squash 或 rebase，取决于你喜欢的合并方式
+          # merge-method: squash
+
+          # 禁用 label 触发，代表所有满足条件的 PR 都能自动合并
+          merge-labels: ""
+          # 如果你希望只自动合并特定来源的分支，可以加：
+          # merge-filter-author: "isHuaMouRen"
