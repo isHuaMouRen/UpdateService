@@ -10,14 +10,12 @@ This repository is used to store the update check service information for my pro
 
 ## Index URL
 - **Github**: https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/index.json
-- **bGithub (China mirror)**: https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/index.json
 - **Gitee**: https://gitee.com/huamouren110/UpdateService/raw/main/index.json
 - **Gitcode**: https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/index.json
 
 ## Repositories
 
 [Github](https://github.com/isHuaMouRen/UpdateService)  
-[bGithub](https://bgithub.xyz/isHuaMouRen/UpdateService)  
 [Gitee](https://gitee.com/huamouren110/UpdateService)  
 [Gitcode](https://gitcode.com/HuaMouRen/UpdateService)  
 

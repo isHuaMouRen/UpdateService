@@ -10,14 +10,12 @@
 
 ## Index URL
 - **Github** https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/index.json
-- **bGithub(国内镜像)** https://raw.bgithub.xyz/isHuaMouRen/UpdateService/refs/heads/main/index.json
 - **Gitee** https://gitee.com/huamouren110/UpdateService/raw/main/index.json
 - **Gitcode** https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/index.json
 
 ## 储存库
 
 [Github](https://github.com/isHuaMouRen/UpdateService)  
-[bGithub](https://bgithub.xyz/isHuaMouRen/UpdateService)  
 [Gitee](https://gitee.com/huamouren110/UpdateService)  
 [Gitcode](https://gitcode.com/HuaMouRen/UpdateService)  
 
