@@ -1,19 +1,69 @@
-name: Auto Merge PR
+name: Auto Merge Pull Requests
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened, ready_for_review]
 
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install @octokit/core
 
       - name: Auto Merge PR
-        uses: pascalgn/automerge-action@v0.16.4  
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}  
-          merge-method: merge
-          commit-message: title
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node -e "
+          const { Octokit } = require('@octokit/core');
+          const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+
+          async function autoMerge() {
+            const prNumber = ${{ github.event.pull_request.number }};
+            const owner = '${{ github.repository_owner }}';
+            const repo = '${{ github.event.repository.name }}';
+
+            try {
+              // 获取 PR 信息
+              const { data: pr } = await octokit.request('GET /repos/{owner}/{repo}/pulls/{pull_number}', {
+                owner,
+                repo,
+                pull_number: prNumber
+              });
+
+              // 检查 PR 是否可合并
+              if (pr.mergeable && !pr.draft && pr.state === 'open') {
+                // 自动合并 PR
+                await octokit.request('PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge', {
+                  owner,
+                  repo,
+                  pull_number: prNumber,
+                  commit_title: `Auto-merge PR #${prNumber}`,
+                  commit_message: 'Automatically merged by GitHub Actions',
+                  merge_method: 'merge'
+                });
+                console.log('PR successfully merged');
+              } else {
+                console.log('PR not merged: Not mergeable, is draft, or not open');
+              }
+            } catch (error) {
+              console.error('Error:', error.message);
+              process.exit(1);
+            }
+          }
+
+          autoMerge();
+          "
