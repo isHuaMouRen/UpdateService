@@ -12,11 +12,8 @@
 - **前缀**: 用于表示修改了哪里的东西，前缀需**全部大写**
 - **信息**: 前缀之后，用于表示修改的内容，简要概括即可，**前缀与信息之前必须间隔一个空格**
 
-<blockquote style="border-left: 4px solid #ff3f3fff; background: #ff75754b; padding: 10px;">
-<b>❗ 注意</b><br>
-如果同时更改多个区域，需使用 <b>/</b> 连接前缀；例如：同时更改Class与github文件夹，那么前缀为 <b>[CLASS/GITHUB]</b>
-</blockquote>
-
+> **❗ 注意**<br>
+> 如果同时更改多个区域，需使用 `/` 连接前缀；例如：同时更改Class与github文件夹，那么前缀为 `[CLASS/GITHUB]`
 
 |前缀|描述|
 |-|-|
