@@ -1,0 +1,10 @@
+{
+    "release": {
+        "latest_version": "Release 4.0.0.0",
+        "release_time": "2025.10.06 18:41",
+        "release_log": "ARCV4/LatestLog",
+        "download_url": "https://gitee.com/huamouren110/ARCautoUpdate/releases/download/Release-4.0.0.0-RC3-Release/ARCV4NoGUI.exe",
+        "release_url": "https://release.xxx.com",
+        "is_full_update": true
+    }
+}

@@ -7,6 +7,7 @@
     "url_paths": {
         "Test": "Test/latest.json",
         "ARCV4": {
+            "LatestJson": "ARCV4/latest.json",
             "LatestLink": "ARCV4/LatestLink",
             "LatestLog": "ARCV4/LatestLog",
             "LatestVersion": "ARCV4/LatestVersion"
