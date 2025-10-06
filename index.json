@@ -5,7 +5,7 @@
         "https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/"
     ],
     "url_paths": {
-        "test": "test/latest.json",
+        "Test": "Test/latest.json",
         "ARCV4": {
             "LatestLink": "ARCV4/LatestLink",
             "LatestLog": "ARCV4/LatestLog",
