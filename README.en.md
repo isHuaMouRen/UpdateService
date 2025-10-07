@@ -24,6 +24,7 @@ This repository is used to store the update check service information for my pro
 | Project Name | Description | Owner | Repository Link |
 |--------------|------------|-------|----------------|
 | ARCV4        | ARCV4 File repository | [Xiaowang0229](https://github.com/Xiaowang0229) | [Link](https://github.com/Xiaowang0229/ARCV4) |
+|MER(MacroEngineRemake)|Macro engine remake version|[isHuaMouRen](https://github.com/isHuaMouRen)|[跳转](https://github.com/isHuaMouRen/MacroEngineRemake)|
 | test         | Project for testing file structure | [isHuaMouRen](https://github.com/isHuaMouRen) | *None* |
 
 ## Star chart
