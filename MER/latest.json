@@ -1,0 +1,11 @@
+{
+    "release": {
+        "latest_version": "Release 1.0.0.0",
+        "release_time": "1970.01.01 00:00",
+        "release_log": "Test/release.md",
+        "download_url": "https://www.xxx.com",
+        "release_url": "https://release.xxx.com",
+        "is_full_update": false
+    },
+    "pre_release": null
+}
