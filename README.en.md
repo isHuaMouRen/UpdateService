@@ -21,11 +21,11 @@ This repository is used to store the update check service information for my pro
 
 ## Projects
 
-| Project Name | Description | Owner | Repository Link |
-|--------------|------------|-------|----------------|
-| ARCV4        | ARCV4 File repository | [Xiaowang0229](https://github.com/Xiaowang0229) | [Link](https://github.com/Xiaowang0229/ARCV4) |
-|MER(MacroEngineRemake)|Macro engine remake version|[isHuaMouRen](https://github.com/isHuaMouRen)|[跳转](https://github.com/isHuaMouRen/MacroEngineRemake)|
-| test         | Project for testing file structure | [isHuaMouRen](https://github.com/isHuaMouRen) | *None* |
+|Project Name|Description|Owner|Repository Link|Notes|
+|-|-|-|-|-|
+|ARCV4|ARCV4 File Repository|[Xiaowang0229](https://github.com/Xiaowang0229)|[Jump](https://github.com/Xiaowang0229/ARCV4)||
+|MER (MacroEngineRemake)|Macro Engine Remake Version|[isHuaMouRen](https://github.com/isHuaMouRen)|[Jump](https://github.com/isHuaMouRen/MacroEngineRemake)|This repository is now archived and will not receive any updates|
+|test|Project for testing file structure|[isHuaMouRen](https://github.com/isHuaMouRen)|*None*|This is actually just a virtual repository for testing|
 
 ## Star chart
 [![Stargazers over time](https://starchart.cc/isHuaMouRen/UpdateService.svg?variant=light)](https://starchart.cc/isHuaMouRen/UpdateService)
