@@ -1,7 +1,7 @@
 {
     "root_url": [
         "https://gitee.com/huamouren110/UpdateService/raw/main/",
-        "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/",        
+        "https://raw.githubusercontent.com/isHuaMouRen/UpdateService/refs/heads/main/",
         "https://raw.gitcode.com/HuaMouRen/UpdateService/raw/main/"
     ],
     "url_paths": {
@@ -12,6 +12,7 @@
             "LatestLog": "ARCV4/LatestLog",
             "LatestVersion": "ARCV4/LatestVersion"
         },
-        "MacroEngineRemake": "MER/latest.json"
+        "MacroEngineRemake": "MER/latest.json",
+        "KeyHotspot": "KeyHotspot/latest.json"
     }
 }
