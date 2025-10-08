@@ -1,5 +1,5 @@
 {
     "LatestVersion": "Release 4.0.0.0 Update 1",
     "LatestLog": "--[点名器 4.0.0.0 更新说明]--\r\n\r\n[全新架构]\r\n本次版本由零开始使用 C# 重写，逻辑更清晰，性能更稳定，响应速度显著提升。\r\n\r\n[界面升级]\r\n采用 WPF-UI 打造现代化界面，交互更流畅，主题风格和控件体验全面优化，操作更直观。\r\n\r\n[核心优化]\r\n点名算法升级，随机性更均匀，点名结果更可靠，同时支持更大班级和更多功能扩展。\r\n\r\n[扩展基础]\r\n此次重构为未来新增功能提供了坚实基础，后续更新可快速迭代，无需担心兼容问题。\r\n\r\n[总结]\r\n4.0.0.0 是一次真正的全新升级版本，不仅外观焕然一新，也让点名体验更高效、更智能。",
-    "LatestLink": "https://gitee.com/huamouren110/ARCautoUpdate/releases/download/Release-4.0.0.0-RC3-Release/ARCV4NoGUI.exe"
+    "LatestLink": "https://gitee.com/huamouren110/ARCautoUpdate/releases/download/Rel4.01/ARCV4NoGUI.exe"
 }
