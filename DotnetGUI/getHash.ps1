@@ -1,1 +1,1 @@
-Get-FileHash -Algorithm SHA256 (Get-Item "DotnetGUI\update.zip" | Out-GridView -PassThru).FullName
+Get-FileHash -Algorithm SHA256 -Path "DotnetGUI\update.zip"
