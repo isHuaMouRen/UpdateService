@@ -5,6 +5,8 @@
             "version_type": "en_origin",
             "version": "1.0.0.1051",
             "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": true,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iRMIh3bguokf"
         },
         {
@@ -12,6 +14,8 @@
             "version_type": "en_origin",
             "version": "1.0.0.1065",
             "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": true,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iwz2A3bguzab"
         },
         {
@@ -19,6 +23,8 @@
             "version_type": "en_origin",
             "version": "1.2.0.1073-GOTY-Plus",
             "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": true,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iP54n3bgsm2d"
         },
         {
@@ -26,6 +32,8 @@
             "version_type": "en_origin",
             "version": "1.2.0.1069-Steam",
             "execute_name": "popcapgame1.exe",
+            "is_recommend": false,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iTImT3bgui0j"
         },
         {
@@ -33,6 +41,8 @@
             "version_type": "en_origin",
             "version": "0.9.9.1029",
             "execute_name": "PlantsVsZombies0.9.9nologin.exe",
+            "is_recommend": false,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/i7Be13bgtfje"
         },
         {
@@ -40,6 +50,8 @@
             "version_type": "en_origin",
             "version": "0.1.1.1014",
             "execute_name": "BloomAndDoom0.1.1nologin.exe",
+            "is_recommend": false,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iMay73bgu3sh"
         }
     ],
@@ -49,6 +61,8 @@
             "version_type": "zh_origin",
             "version": "1.0.0.1051-ZH1",
             "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": true,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/i04HB3bgvrji"
         },
         {
@@ -56,6 +70,8 @@
             "version_type": "zh_origin",
             "version": "1.0.0.1051-ZH2",
             "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": false,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iTf8I3bgwb3c"
         },
         {
@@ -63,6 +79,8 @@
             "version_type": "zh_origin",
             "version": "1.2.0.1065-ZH",
             "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": false,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/ihaVm3bgwz9c"
         },
         {
@@ -70,6 +88,8 @@
             "version_type": "zh_origin",
             "version": "1.2.0.1073-ZH",
             "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": false,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/ihTt73bgyb5g"
         },
         {
@@ -77,22 +97,28 @@
             "version_type": "zh_origin",
             "version": "1.2.0.1073-GOTY-Plus-ZH",
             "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": false,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/izCwP3bh1cmh"
         }
     ],
     "zh_revision": [
         {
-            "name": "95版",
-            "version_type": "zh_revision",
-            "version": "95",
-            "execute_name": "PlantsVsZombies.exe",
-            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iyWVj3bh2mpg"
-        },
-        {
             "name": "β版6.30",
             "version_type": "zh_revision",
             "version": "β 6.30",
             "execute_name": "beta6.30.exe",
+            "is_recommend": true,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iyWVj3bh2mpg"
+        },
+        {
+            "name": "95版",
+            "version_type": "zh_revision",
+            "version": "95",
+            "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": false,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iyWVj3bh2mpg"
         },
         {
@@ -100,6 +126,8 @@
             "version_type": "zh_revision",
             "version": "β 6.66-Test.31",
             "execute_name": "beta6.66.test31.ClickToPlay.exe",
+            "is_recommend": false,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iUOws3bh3lef"
         },
         {
@@ -107,6 +135,8 @@
             "version_type": "zh_revision",
             "version": "TAT 3.9.9",
             "execute_name": "PlantsVSZombies.exe",
+            "is_recommend": false,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/nmxNRQkf"
         },
         {
@@ -114,6 +144,8 @@
             "version_type": "zh_revision",
             "version": "GhTr",
             "execute_name": "PlantsVSZombies.exe",
+            "is_recommend": false,
+            "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/nmxNRQkf"
         }
     ]
