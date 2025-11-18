@@ -113,6 +113,15 @@
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iyWVj3bh2mpg"
         },
         {
+            "name": "GhTr",
+            "version_type": "zh_revision",
+            "version": "GhTr ~ Perfect Voyage 0.17m-Fixed.1",
+            "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": true,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/cJpNRrAs"
+        },
+        {
             "name": "95版",
             "version_type": "zh_revision",
             "version": "95",
@@ -134,15 +143,6 @@
             "name": "时空环游之旅",
             "version_type": "zh_revision",
             "version": "TAT 3.9.9",
-            "execute_name": "PlantsVSZombies.exe",
-            "is_recommend": false,
-            "is_new": true,
-            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/nmxNRQkf"
-        },
-        {
-            "name": "GhTr",
-            "version_type": "zh_revision",
-            "version": "GhTr",
             "execute_name": "PlantsVSZombies.exe",
             "is_recommend": false,
             "is_new": true,
