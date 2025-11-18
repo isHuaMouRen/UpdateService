@@ -22,6 +22,7 @@
 |ARCV4|ARCV4 File repository|[Xiaowang0229](https://github.com/Xiaowang0229)|[跳转](https://github.com/Xiaowang0229/ARCV4)||
 |DotnetGUI|为.NET SDK添加可视化交互界面|[isHuaMouRen](https://github/isHuaMouRen)|[跳转](https://github.com/isHuaMouRen/DotnetGUI)||
 |MER(MacroEngineRemake)|宏引擎重置版|[isHuaMouRen](https://github.com/isHuaMouRen)|[跳转](https://github.com/isHuaMouRen/MacroEngineRemake)|此仓库现已存档，不作任何更新|
+|PvzLauncherRemake|植物大战僵尸启动器重置版|[isHuaMouRen](https://github.com/isHuaMouRen)|[跳转](https://github.com/isHuaMouRen/PvzLauncher-Remake)||
 |test|用于测试文件结构的项目|[isHuaMouRen](https://github.com/isHuaMouRen)|*None*|这其实只是一个用于测试的虚拟仓库|
 
 ## Star 趋势

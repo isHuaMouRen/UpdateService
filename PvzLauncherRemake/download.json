@@ -1,0 +1,120 @@
+{
+    "en_origin": [
+        {
+            "name": "原版v1051",
+            "version_type": "en_origin",
+            "version": "1.0.0.1051",
+            "execute_name": "PlantsVsZombies.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iRMIh3bguokf"
+        },
+        {
+            "name": "原版v1065",
+            "version_type": "en_origin",
+            "version": "1.0.0.1065",
+            "execute_name": "PlantsVsZombies.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iwz2A3bguzab"
+        },
+        {
+            "name": "年度加强版",
+            "version_type": "en_origin",
+            "version": "1.2.0.1073-GOTY-Plus",
+            "execute_name": "PlantsVsZombies.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iP54n3bgsm2d"
+        },
+        {
+            "name": "Steam正版",
+            "version_type": "en_origin",
+            "version": "1.2.0.1069-Steam",
+            "execute_name": "popcapgame1.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iTImT3bgui0j"
+        },
+        {
+            "name": "PlantsVsZombies测试版",
+            "version_type": "en_origin",
+            "version": "0.9.9.1029",
+            "execute_name": "PlantsVsZombies0.9.9nologin.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/i7Be13bgtfje"
+        },
+        {
+            "name": "Bloom&Doom测试版",
+            "version_type": "en_origin",
+            "version": "0.1.1.1014",
+            "execute_name": "BloomAndDoom0.1.1nologin.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iMay73bgu3sh"
+        }
+    ],
+    "zh_origin": [
+        {
+            "name": "v1.0.0.1051汉化第一版",
+            "version_type": "zh_origin",
+            "version": "1.0.0.1051-ZH1",
+            "execute_name": "PlantsVsZombies.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/i04HB3bgvrji"
+        },
+        {
+            "name": "v1.0.0.1051汉化第二版",
+            "version_type": "zh_origin",
+            "version": "1.0.0.1051-ZH2",
+            "execute_name": "PlantsVsZombies.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iTf8I3bgwb3c"
+        },
+        {
+            "name": "v1.2.0.1065汉化版",
+            "version_type": "zh_origin",
+            "version": "1.2.0.1065-ZH",
+            "execute_name": "PlantsVsZombies.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/ihaVm3bgwz9c"
+        },
+        {
+            "name": "年度植吧完美汉化版",
+            "version_type": "zh_origin",
+            "version": "1.2.0.1073-ZH",
+            "execute_name": "PlantsVsZombies.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/ihTt73bgyb5g"
+        },
+        {
+            "name": "年度加强汉化版",
+            "version_type": "zh_origin",
+            "version": "1.2.0.1073-GOTY-Plus-ZH",
+            "execute_name": "PlantsVsZombies.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/izCwP3bh1cmh"
+        }
+    ],
+    "zh_revision": [
+        {
+            "name": "95版",
+            "version_type": "zh_revision",
+            "version": "95",
+            "execute_name": "PlantsVsZombies.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iyWVj3bh2mpg"
+        },
+        {
+            "name": "β版6.30",
+            "version_type": "zh_revision",
+            "version": "β 6.30",
+            "execute_name": "beta6.30.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iyWVj3bh2mpg"
+        },
+        {
+            "name": "β版6.66",
+            "version_type": "zh_revision",
+            "version": "β 6.66-Test.31",
+            "execute_name": "beta6.66.test31.ClickToPlay.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iUOws3bh3lef"
+        },
+        {
+            "name": "时空环游之旅",
+            "version_type": "zh_revision",
+            "version": "TAT 3.9.9",
+            "execute_name": "PlantsVSZombies.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/nmxNRQkf"
+        },
+        {
+            "name": "GhTr",
+            "version_type": "zh_revision",
+            "version": "GhTr",
+            "execute_name": "PlantsVSZombies.exe",
+            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/nmxNRQkf"
+        }
+    ]
+}

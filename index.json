@@ -13,6 +13,7 @@
             "LatestVersion": "ARCV4/LatestVersion"
         },
         "MacroEngineRemake": "MER/latest.json",
-        "DotnetGUI":"DotnetGUI/latest.json"
+        "DotnetGUI": "DotnetGUI/latest.json",
+        "PvzLauncherRemake": null
     }
 }
