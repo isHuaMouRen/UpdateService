@@ -2,6 +2,7 @@
     "en_origin": [
         {
             "name": "原版v1051",
+            "description": "首次发行版，最经典，支持修改器最多的版本",
             "version_type": "en_origin",
             "version": "1.0.0.1051",
             "execute_name": "PlantsVsZombies.exe",
@@ -10,9 +11,10 @@
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iRMIh3bguokf"
         },
         {
-            "name": "原版v1065",
+            "name": "原版v1.2.0.1065",
+            "description": "经典版",
             "version_type": "en_origin",
-            "version": "1.0.0.1065",
+            "version": "1.2.0.1065",
             "execute_name": "PlantsVsZombies.exe",
             "is_recommend": true,
             "is_new": true,
@@ -20,6 +22,7 @@
         },
         {
             "name": "年度加强版",
+            "description": "更新了成就以及僵尸大头贴！！！",
             "version_type": "en_origin",
             "version": "1.2.0.1073-GOTY-Plus",
             "execute_name": "PlantsVsZombies.exe",
@@ -29,6 +32,7 @@
         },
         {
             "name": "Steam正版",
+            "description": "在Steam上发行的\"正版\"游戏",
             "version_type": "en_origin",
             "version": "1.2.0.1069-Steam",
             "execute_name": "popcapgame1.exe",
@@ -38,6 +42,7 @@
         },
         {
             "name": "PlantsVsZombies测试版",
+            "description": "测试版",
             "version_type": "en_origin",
             "version": "0.9.9.1029",
             "execute_name": "PlantsVsZombies0.9.9nologin.exe",
@@ -47,6 +52,7 @@
         },
         {
             "name": "Bloom&Doom测试版",
+            "description": "开花与凋零测试版",
             "version_type": "en_origin",
             "version": "0.1.1.1014",
             "execute_name": "BloomAndDoom0.1.1nologin.exe",
@@ -58,6 +64,7 @@
     "zh_origin": [
         {
             "name": "v1.0.0.1051汉化第一版",
+            "description": "最经典的版本，最经典的汉化",
             "version_type": "zh_origin",
             "version": "1.0.0.1051-ZH1",
             "execute_name": "PlantsVsZombies.exe",
@@ -67,6 +74,7 @@
         },
         {
             "name": "v1.0.0.1051汉化第二版",
+            "description": "最经典的版本，不错的汉化",
             "version_type": "zh_origin",
             "version": "1.0.0.1051-ZH2",
             "execute_name": "PlantsVsZombies.exe",
@@ -76,6 +84,7 @@
         },
         {
             "name": "v1.2.0.1065汉化版",
+            "description": "v1.2.0.1065汉化版",
             "version_type": "zh_origin",
             "version": "1.2.0.1065-ZH",
             "execute_name": "PlantsVsZombies.exe",
@@ -85,6 +94,7 @@
         },
         {
             "name": "年度植吧完美汉化版",
+            "description": "由百度植物大战僵尸吧制作的年度完美汉化版，此版本完全修复所有BUG完美免广告",
             "version_type": "zh_origin",
             "version": "1.2.0.1073-ZH",
             "execute_name": "PlantsVsZombies.exe",
@@ -94,6 +104,7 @@
         },
         {
             "name": "年度加强汉化版",
+            "description": "年度加强汉化版",
             "version_type": "zh_origin",
             "version": "1.2.0.1073-GOTY-Plus-ZH",
             "execute_name": "PlantsVsZombies.exe",
@@ -105,6 +116,7 @@
     "zh_revision": [
         {
             "name": "β版6.30",
+            "description": "修改了游戏的一些特性，并且还内置了十多页的小游戏！",
             "version_type": "zh_revision",
             "version": "β 6.30",
             "execute_name": "beta6.30.exe",
@@ -113,25 +125,28 @@
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iyWVj3bh2mpg"
         },
         {
-            "name": "GhTr",
-            "version_type": "zh_revision",
-            "version": "GhTr ~ Perfect Voyage 0.17m-Fixed.1",
-            "execute_name": "PlantsVsZombies.exe",
-            "is_recommend": true,
-            "is_new": true,
-            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/cJpNRrAs"
-        },
-        {
             "name": "95版",
+            "description": "历经95次魔改的版本",
             "version_type": "zh_revision",
             "version": "95",
             "execute_name": "PlantsVsZombies.exe",
-            "is_recommend": false,
+            "is_recommend": true,
             "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iyWVj3bh2mpg"
         },
         {
+            "name": "GhTr",
+            "description": "使用全新引擎重置的版本！",
+            "version_type": "zh_revision",
+            "version": "GhTr ~ Perfect Voyage 0.17m-Fixed.1",
+            "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": false,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/cJpNRrAs"
+        },
+        {
             "name": "β版6.66",
+            "description": "β版目前最新测试版，有一些Bug，不过能体验到一些新内容！",
             "version_type": "zh_revision",
             "version": "β 6.66-Test.31",
             "execute_name": "beta6.66.test31.ClickToPlay.exe",
@@ -141,12 +156,81 @@
         },
         {
             "name": "时空环游之旅",
+            "description": "2代风格的改版",
             "version_type": "zh_revision",
             "version": "TAT 3.9.9",
             "execute_name": "PlantsVSZombies.exe",
             "is_recommend": false,
             "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/nmxNRQkf"
+        }
+    ],
+    "trainer": [
+        {
+            "name": "Pvz Toolkit",
+            "description": "全版本通用修改器!",
+            "version_type": "trainer",
+            "version": "1.22.0",
+            "support_version": "全版本",
+            "execute_name": "PvZ_Toolkit_v1.22.0_ZH.exe",
+            "is_recommend": true,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iZQaC3bkzzte"
+        },
+        {
+            "name": "血量显示器",
+            "description": "在游戏内显示血量，还可以显示鼠标键状态!",
+            "version_type": "trainer",
+            "version": "未知",
+            "support_version": "1.0.0.1051 ~ 1.2.0.1065",
+            "execute_name": "血量显示器.exe",
+            "is_recommend": true,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iuXcH3bl1f8f"
+        },
+        {
+            "name": "随机数修改器",
+            "description": "修改游戏内的各种随机数",
+            "version_type": "trainer",
+            "version": "3.2",
+            "support_version": "1.0.0.1051 ~ 1.2.0.1065",
+            "execute_name": "Rnd_3_3.exe",
+            "is_recommend": false,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iqxDI3bl1s3i"
+        },
+        {
+            "name": "Pvz Toolkit 英文版",
+            "description": "PvzToolkit英文版本",
+            "version_type": "trainer",
+            "version": "1.22.0",
+            "support_version": "全版本",
+            "execute_name": "PvZ_Toolkit_v1.22.0_EN.exe",
+            "is_recommend": false,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/ioDXz3bkzzvg"
+        },
+        {
+            "name": "Pvz Toolkit NT5兼容版",
+            "description": "PvzToolkit的NT5兼容版，适用于Windows 200/XP",
+            "version_type": "trainer",
+            "version": "1.22.0-NT5",
+            "support_version": "全版本",
+            "execute_name": "PvZ_Toolkit_v1.22.0_ZH_NT5.exe",
+            "is_recommend": false,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iUsOU3bkzzxi"
+        },
+        {
+            "name": "Pvz Toolkit NT5兼容英文版",
+            "description": "PvzToolkit的NT5兼容英文版，适用于Windows 200/XP",
+            "version_type": "trainer",
+            "version": "1.22.0-NT5",
+            "support_version": "全版本",
+            "execute_name": "PvZ_Toolkit_v1.22.0_EN_NT5.exe",
+            "is_recommend": false,
+            "is_new": true,
+            "url": "hhttps://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iTksT3bkzzwh"
         }
     ]
 }
