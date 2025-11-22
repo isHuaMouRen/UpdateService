@@ -1,0 +1,10 @@
+{
+    "stable": {
+        "latest_version": "1.0.0-alpha.14",
+        "url": ""
+    },
+    "development": {
+        "latest_version": "1.0.0-alpha.14",
+        "url": ""
+    }
+}

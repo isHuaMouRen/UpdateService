@@ -14,6 +14,6 @@
         },
         "MacroEngineRemake": "MER/latest.json",
         "DotnetGUI": "DotnetGUI/latest.json",
-        "PvzLauncherRemake": null
+        "PvzLauncherRemake": "PvzLauncherRemake/update.json"
     }
 }
