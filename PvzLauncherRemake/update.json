@@ -1,10 +1,10 @@
 {
     "stable": {
         "latest_version": "1.0.0-alpha.14",
-        "url": ""
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.100/dotnet-sdk-10.0.100-win-x64.exe"
     },
     "development": {
         "latest_version": "1.0.0-alpha.14",
-        "url": ""
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.100/dotnet-sdk-10.0.100-win-x64.exe"
     }
 }
