@@ -135,6 +135,26 @@
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iyWVj3bh2mpg"
         },
         {
+            "name": "经典杂交版",
+            "description": "将植物杂交，诞生新的植物！近年的热门改版！",
+            "version_type": "zh_revision",
+            "version": "Hybridization Edition 3.13.2",
+            "execute_name": "pvzHE-Launcher.exe",
+            "is_recommend": true,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/K70NCnDb"
+        },
+        {
+            "name": "重置杂交版",
+            "description": "使用全新引擎重置的杂交版！",
+            "version_type": "zh_revision",
+            "version": "Hybridization Edition-Remake 0.10.2",
+            "execute_name": "植物大战僵尸杂交版v0.10.2性能版.exe",
+            "is_recommend": true,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/lWNNCM7u"
+        },
+        {
             "name": "GhTr",
             "description": "使用全新引擎重置的版本！",
             "version_type": "zh_revision",
