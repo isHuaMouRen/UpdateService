@@ -154,20 +154,9 @@
             "version": "Hybridization Edition 3.13.2",
             "size": 357.62,
             "execute_name": "pvzHE-Launcher.exe",
-            "is_recommend": true,
+            "is_recommend": false,
             "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/K70NCnDb"
-        },
-        {
-            "name": "植物大战僵尸 杂交版 (重置)",
-            "description": "使用全新引擎重置的杂交版！",
-            "version_type": "zh_revision",
-            "version": "Hybridization Edition-Remake 0.10.2",
-            "size": 395.55,
-            "execute_name": "植物大战僵尸杂交版v0.10.2性能版.exe",
-            "is_recommend": true,
-            "is_new": true,
-            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/lWNNCM7u"
         },
         {
             "name": "植物大战僵尸 融合版",
@@ -176,10 +165,32 @@
             "version": "Fusion Edition 3.1.1",
             "size": 441.42,
             "execute_name": "PlantsVsZombiesRH.exe",
-            "is_recommend": true,
+            "is_recommend": false,
             "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/39oNcu5Y"
         },
+        {
+            "name": "胆小菇之梦",
+            "description": "胆小菇被潮水一般的僵尸吓得晕了过去，做了场梦……",
+            "version_type": "zh_revision",
+            "version": "Scaredy-Shroom's Dream 0.2.2",
+            "size": 27.2,
+            "execute_name": "胆小菇之梦启动器.exe",
+            "is_recommend": false,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouo.com/iDGDY3c6r45i"
+        },
+        {
+            "name": "植物大战僵尸 杂交版 (重置)",
+            "description": "使用全新引擎重置的杂交版！",
+            "version_type": "zh_revision",
+            "version": "Hybridization Edition-Remake 0.10.2",
+            "size": 395.55,
+            "execute_name": "植物大战僵尸杂交版v0.10.2性能版.exe",
+            "is_recommend": false,
+            "is_new": true,
+            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/lWNNCM7u"
+        },        
         {
             "name": "植物大战僵尸 GhTr版",
             "description": "使用全新引擎重置的高质量改版！",
