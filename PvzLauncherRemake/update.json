@@ -1,11 +1,11 @@
 {
     "stable": {
-        "latest_version": "1.0.0-beta.8",
+        "latest_version": "1.0.0-beta.9",
         "change_log": "https://gitee.com/huamouren110/UpdateService/raw/main/PvzLauncherRemake/changelog.md",
         "url": "https://gitee.com/huamouren110/UpdateService/raw/main/PvzLauncherRemake/bin.zip"
     },
     "development": {
-        "latest_version": "1.0.0-beta.8",
+        "latest_version": "1.0.0-beta.9",
         "change_log": "https://gitee.com/huamouren110/UpdateService/raw/main/PvzLauncherRemake/changelog.md",
         "url": "https://gitee.com/huamouren110/UpdateService/raw/main/PvzLauncherRemake/bin.zip"
     }
