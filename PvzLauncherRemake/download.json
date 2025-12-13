@@ -1,4 +1,9 @@
 {
+    "data": {
+        "total_size": 1.918894804,
+        "total_games": 20,
+        "total_trainers": 9
+    },
     "en_origin": [
         {
             "name": "植物大战僵尸 v1.0.0.1051",
@@ -190,7 +195,7 @@
             "is_recommend": false,
             "is_new": true,
             "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/nZoN5pNI"
-        },        
+        },
         {
             "name": "植物大战僵尸 GhTr版",
             "description": "使用全新引擎重置的高质量改版！",
