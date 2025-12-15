@@ -267,7 +267,7 @@
         {
             "name": "血量显示器",
             "description": "在游戏内显示血量，还可以显示鼠标键状态!",
-            "icon": "origin",
+            "icon": "unknown",
             "version_type": "trainer",
             "version": "未知",
             "support_version": "1.0.0.1051 ~ 1.2.0.1065",
