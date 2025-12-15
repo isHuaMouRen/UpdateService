@@ -8,6 +8,7 @@
         {
             "name": "植物大战僵尸 v1.0.0.1051",
             "description": "首次发行版，最经典，支持修改器最多的版本",
+            "icon": "origin",
             "version_type": "en_origin",
             "version": "1.0.0.1051",
             "size": 25.91,
@@ -19,6 +20,7 @@
         {
             "name": "植物大战僵尸 v1.2.0.1065",
             "description": "经典版",
+            "icon": "origin",
             "version_type": "en_origin",
             "version": "1.2.0.1065",
             "size": 23.45,
@@ -30,6 +32,7 @@
         {
             "name": "植物大战僵尸 年度加强版",
             "description": "更新了成就以及僵尸大头贴！！！",
+            "icon": "goty",
             "version_type": "en_origin",
             "version": "1.2.0.1073-GOTY-Plus",
             "size": 35.77,
@@ -41,6 +44,7 @@
         {
             "name": "植物大战僵尸 Steam正版",
             "description": "在Steam上发行的\"正版\"游戏",
+            "icon": "steam",
             "version_type": "en_origin",
             "version": "1.2.0.1069-Steam",
             "size": 35.98,
@@ -52,6 +56,7 @@
         {
             "name": "植物大战僵尸 测试版",
             "description": "测试版",
+            "icon": "test",
             "version_type": "en_origin",
             "version": "0.9.9.1029",
             "size": 24.45,
@@ -63,6 +68,7 @@
         {
             "name": "开花与终结 测试版",
             "description": "开花与凋零测试版",
+            "icon": "test",
             "version_type": "en_origin",
             "version": "0.1.1.1014",
             "size": 39.27,
@@ -76,6 +82,7 @@
         {
             "name": "植物大战僵尸汉化第一版",
             "description": "最经典的版本，最经典的汉化",
+            "icon": "origin",
             "version_type": "zh_origin",
             "version": "1.0.0.1051-ZH1",
             "size": 28.72,
@@ -87,6 +94,7 @@
         {
             "name": "植物大战僵尸汉化第二版",
             "description": "最经典的版本，不错的汉化",
+            "icon": "origin",
             "version_type": "zh_origin",
             "version": "1.0.0.1051-ZH2",
             "size": 26.99,
@@ -98,6 +106,7 @@
         {
             "name": "植物大战僵尸v1.2.0.1065汉化版",
             "description": "v1.2.0.1065汉化版",
+            "icon": "origin",
             "version_type": "zh_origin",
             "version": "1.2.0.1065-ZH",
             "size": 25.53,
@@ -109,6 +118,7 @@
         {
             "name": "植物大战僵尸吧完美汉化版",
             "description": "由百度植物大战僵尸吧制作的年度完美汉化版，此版本完全修复所有BUG完美免广告",
+            "icon": "goty",
             "version_type": "zh_origin",
             "version": "1.2.0.1073-ZH",
             "size": 61.83,
@@ -120,6 +130,7 @@
         {
             "name": "植物大战僵尸年度加强汉化版",
             "description": "年度加强汉化版",
+            "icon": "goty",
             "version_type": "zh_origin",
             "version": "1.2.0.1073-GOTY-Plus-ZH",
             "size": 49.76,
@@ -133,6 +144,7 @@
         {
             "name": "植物大战僵尸 β版 v6.30",
             "description": "修改了游戏的一些特性，并且还内置了十多页的小游戏！",
+            "icon": "beta",
             "version_type": "zh_revision",
             "version": "β 6.30",
             "size": 38.81,
@@ -144,6 +156,7 @@
         {
             "name": "植物大战僵尸 95版",
             "description": "历经95次魔改的版本",
+            "icon": "ninefive",
             "version_type": "zh_revision",
             "version": "Version 95",
             "size": 27.36,
@@ -155,6 +168,7 @@
         {
             "name": "植物大战僵尸 杂交版 (经典)",
             "description": "新增大量杂交植物! ",
+            "icon": "he",
             "version_type": "zh_revision",
             "version": "Hybridization Edition 3.13.2",
             "size": 357.62,
@@ -166,6 +180,7 @@
         {
             "name": "植物大战僵尸 融合版",
             "description": "把植物放在一起，合成一个新的植物！",
+            "icon": "fe",
             "version_type": "zh_revision",
             "version": "Fusion Edition 3.1.1",
             "size": 441.42,
@@ -177,6 +192,7 @@
         {
             "name": "胆小菇之梦",
             "description": "胆小菇被潮水一般的僵尸吓得晕了过去，做了场梦……",
+            "icon": "dream",
             "version_type": "zh_revision",
             "version": "Scaredy-Shroom's Dream 0.2.2",
             "size": 27.2,
@@ -188,6 +204,7 @@
         {
             "name": "植物大战僵尸 杂交版 (重置)",
             "description": "使用全新引擎重置的杂交版！",
+            "icon": "he",
             "version_type": "zh_revision",
             "version": "Hybridization Edition-Remake 0.10.2",
             "size": 395.55,
@@ -199,6 +216,7 @@
         {
             "name": "植物大战僵尸 GhTr版",
             "description": "使用全新引擎重置的高质量改版！",
+            "icon": "ghtr",
             "version_type": "zh_revision",
             "version": "GhTr ~ Perfect Voyage 0.17m-Fixed.1",
             "size": 138.77,
@@ -210,6 +228,7 @@
         {
             "name": "植物大战僵尸 β版 v6.66",
             "description": "β版目前最新测试版，有一些Bug，不过能体验到一些新内容！",
+            "icon": "beta",
             "version_type": "zh_revision",
             "version": "β 6.66-Test.31",
             "size": 41.3,
@@ -221,6 +240,7 @@
         {
             "name": "植物大战僵尸 时空环游之旅",
             "description": "2代风格的改版",
+            "icon": "tat",
             "version_type": "zh_revision",
             "version": "TAT 3.9.9",
             "size": 352.92,
@@ -234,6 +254,7 @@
         {
             "name": "Pvz Toolkit",
             "description": "全版本通用修改器!",
+            "icon": "pvztoolkit",
             "version_type": "trainer",
             "version": "1.22.0",
             "support_version": "全版本",
@@ -246,6 +267,7 @@
         {
             "name": "血量显示器",
             "description": "在游戏内显示血量，还可以显示鼠标键状态!",
+            "icon": "origin",
             "version_type": "trainer",
             "version": "未知",
             "support_version": "1.0.0.1051 ~ 1.2.0.1065",
@@ -258,6 +280,7 @@
         {
             "name": "经典杂交版修改器",
             "description": "适用于经典杂交版的多功能修改器!",
+            "icon": "he",
             "version_type": "trainer",
             "version": "beta 0.69",
             "support_version": "Hybridization Edition 3.13.2",
@@ -270,6 +293,7 @@
         {
             "name": "融合版修改器",
             "description": "适用于融合版的多功能修改器",
+            "icon": "fe",
             "version_type": "trainer",
             "version": "2.1.1",
             "support_version": "Fusion Edition 3.1 (.1)",
@@ -282,6 +306,7 @@
         {
             "name": "Cheat Engine",
             "description": "强大的单机游戏修改器!",
+            "icon": "ce",
             "version_type": "trainer",
             "version": "7.6",
             "support_version": "全版本",
@@ -294,6 +319,7 @@
         {
             "name": "随机数修改器",
             "description": "修改游戏内的各种随机数",
+            "icon": "origin",
             "version_type": "trainer",
             "version": "3.2",
             "support_version": "1.0.0.1051 ~ 1.2.0.1065",
@@ -306,6 +332,7 @@
         {
             "name": "Pvz Toolkit 英文版",
             "description": "PvzToolkit英文版本",
+            "icon": "pvztoolkit",
             "version_type": "trainer",
             "version": "1.22.0",
             "support_version": "全版本",
@@ -318,6 +345,7 @@
         {
             "name": "Pvz Toolkit NT5兼容版",
             "description": "PvzToolkit的NT5兼容版，适用于Windows 200/XP",
+            "icon": "pvztoolkit",
             "version_type": "trainer",
             "version": "1.22.0-NT5",
             "support_version": "全版本",
@@ -330,6 +358,7 @@
         {
             "name": "Pvz Toolkit NT5兼容英文版",
             "description": "PvzToolkit的NT5兼容英文版，适用于Windows 200/XP",
+            "icon": "pvztoolkit",
             "version_type": "trainer",
             "version": "1.22.0-NT5",
             "support_version": "全版本",
