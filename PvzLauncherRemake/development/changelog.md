@@ -1,20 +1,15 @@
 ## 更新
 
-* 包
-  + 更新包 `HuaZi.Library` 至最新版 `2025.12.18.2`
-
 * 关于
-  + 添加 `https://github.com/dotnet/wpf` 至鸣谢列表内
-  + 为开发者 `isHuaMouRen` 添加一条注释
+  + 添加对 [https://github.com/qaiu/netdisk-fast-download](https://github.com/qaiu/netdisk-fast-download) 直链解析 的鸣谢
 
-* 设置
-  + 为每个设置项添加悬浮提示
+* 图标库
+  + 添加 `测试版` 图标
+  + 添加 `Ghtr版` 图标
+  + 添加 `胆小菇之梦` 图标
+  + 添加 `95版` 图标
 
-## 更改
+## 修复
 
-* 关于
-  + 更改 `作者` 为 `开发者`
-  + 整改布局，改为居中对齐。增强协调性
-
-* 设置
-  + 更改控件进入动画为 `PowerEase`
+* 游戏管理
+  + 修复了游戏版本号前面会出现 `未知` 的问题
