@@ -1,15 +1,18 @@
 ## 更新
 
-* 关于
-  + 添加对 [https://github.com/qaiu/netdisk-fast-download](https://github.com/qaiu/netdisk-fast-download) 直链解析 的鸣谢
+* 任务管理
+  + 支持显示总速度
 
-* 图标库
-  + 添加 `测试版` 图标
-  + 添加 `Ghtr版` 图标
-  + 添加 `胆小菇之梦` 图标
-  + 添加 `95版` 图标
+* 卡片
+  + 添加 `大图标模式` 属性
 
-## 修复
+* 任务管理
+  + 支持显示图标
 
-* 游戏管理
-  + 修复了游戏版本号前面会出现 `未知` 的问题
+## 移除
+
+* 依赖项
+  + 移除了对 `Microsoft.Web.Webview2` 的依赖
+
+* 开发者控制面板
+  + 移除了 `WebView2` 测试项
