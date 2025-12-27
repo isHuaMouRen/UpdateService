@@ -1,15 +1,58 @@
 {
+    "en_origin":[
+        {
+            "name": "启动器版本过旧，请使用最新版启动器",
+            "description": "启动器版本过旧，请使用最新版启动器",
+            "icon": "unknown",
+            "version_type": "zh_origin",
+            "version": "0.0.0.0",
+            "size": 0.0,
+            "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": false,
+            "is_new": false,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouv.com/iKwRR3cp5jdi&pwd=be7g"
+        }
+    ],
     "zh_origin": [
         {
             "name": "启动器版本过旧，请使用最新版启动器",
             "description": "启动器版本过旧，请使用最新版启动器",
-            "icon": "origin",
+            "icon": "unknown",
             "version_type": "zh_origin",
-            "version": "1.0.0.1051-ZH1",
-            "size": 28.72,
+            "version": "0.0.0.0",
+            "size": 0.0,
             "execute_name": "PlantsVsZombies.exe",
-            "is_recommend": true,
-            "is_new": true,
+            "is_recommend": false,
+            "is_new": false,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouv.com/iKwRR3cp5jdi&pwd=be7g"
+        }
+    ],
+    "zh_revision": [
+        {
+            "name": "启动器版本过旧，请使用最新版启动器",
+            "description": "启动器版本过旧，请使用最新版启动器",
+            "icon": "unknown",
+            "version_type": "zh_origin",
+            "version": "0.0.0.0",
+            "size": 0.0,
+            "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": false,
+            "is_new": false,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouv.com/iKwRR3cp5jdi&pwd=be7g"
+        }
+    ],
+    "trainer": [
+        {
+            "name": "启动器版本过旧，请使用最新版启动器",
+            "description": "启动器版本过旧，请使用最新版启动器",
+            "icon": "unknown",
+            "version_type": "zh_origin",
+            "version": "0.0.0.0",
+            "support_version": "0.0.0.0 ~ 0.0.0.0",
+            "size": 0.0,
+            "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": false,
+            "is_new": false,
             "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouv.com/iKwRR3cp5jdi&pwd=be7g"
         }
     ]
