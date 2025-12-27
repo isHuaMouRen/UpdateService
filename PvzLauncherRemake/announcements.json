@@ -1,0 +1,14 @@
+{
+    "announcements": [
+        {
+            "title": "公告测试",
+            "date": "12-27 22:00",
+            "content": "test.md"
+        },
+        {
+            "title": "公告测试2",
+            "date": "12-27 22:01",
+            "content": "test2.md"
+        }
+    ]
+}
