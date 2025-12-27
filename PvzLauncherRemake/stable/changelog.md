@@ -1,13 +1,22 @@
 ## 更新
 
+* **下载**
+  + 获取下载索引时会检测索引是否有效，来避免程序崩溃
+  + 更新下载索引Url
+* **关于**
+  + 添加对 `Visual Studio Community 2026` 的鸣谢
+  + 添加对 `Visual Studio Code` 的鸣谢
+  + 添加对 `Git` 的鸣谢
+  + 添加对 `Inkscape` 的鸣谢
+  + 添加对 `Paint.NET` 的鸣谢
 * **本地化**
-  + 完成部分 `设置页` 本地化
-* **图标**
-  + 添加 `杂交版` 图标
-  + 添加 `融合版` 图标
-  + 添加 `PvzToolkit` 图标
-  + 添加 `CheatEngine` 图标
+  + 添加 `任务管理页` 本地化
+  + 添加 `UserCard` 本地化
+
+## 更改
+
+* **关于:** 移除开发者 `isHuaMouRen` 后方的一段文字
 
 ## 修复
 
-* **仓库:** 修复议题模板 `为游戏库贡献` 错误地为 `为游戏库库贡献` ([#62](https://github.com/PvzLauncher/PvzLauncher/issues/62))
+* **本地化:** 修复一处本地化错误
