@@ -137,28 +137,16 @@
     ],
     "zh_revision": [
         {
-            "name": "植物大战僵尸 β版 v6.30",
-            "description": "修改了游戏的一些特性，并且还内置了十多页的小游戏！",
+            "name": "植物大战僵尸 β版 v6.66",
+            "description": "添加众多小游戏！",
             "icon": "beta",
             "version_type": "zh_revision",
-            "version": "β 6.30",
-            "size": 38.81,
-            "execute_name": "beta6.30.exe",
+            "version": "β 6.66-Test.31",
+            "size": 41.3,
+            "execute_name": "beta6.66.test31.ClickToPlay.exe",
             "is_recommend": true,
             "is_new": false,
-            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouv.com/i1KUz3cp6osj&pwd=ftun"
-        },
-        {
-            "name": "植物大战僵尸 95版",
-            "description": "历经95次魔改的版本",
-            "icon": "ninefive",
-            "version_type": "zh_revision",
-            "version": "Version 95",
-            "size": 27.36,
-            "execute_name": "PlantsVsZombies.exe",
-            "is_recommend": true,
-            "is_new": false,
-            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouv.com/i2oiG3cp6t4f&pwd=87bx"
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouv.com/iXlvE3cp6qha&pwd=go3a"
         },
         {
             "name": "植物大战僵尸 杂交版 (经典)",
@@ -168,7 +156,7 @@
             "version": "Hybridization Edition 3.13.2",
             "size": 357.62,
             "execute_name": "pvzHE-Launcher.exe",
-            "is_recommend": false,
+            "is_recommend": true,
             "is_new": false,
             "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/rCrN5p6S"
         },
@@ -180,9 +168,45 @@
             "version": "Fusion Edition 3.1.1",
             "size": 441.42,
             "execute_name": "PlantsVsZombiesRH.exe",
-            "is_recommend": false,
+            "is_recommend": true,
             "is_new": false,
             "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/rA2N5pmk"
+        },
+        {
+            "name": "植物大战僵尸 时空环游之旅",
+            "description": "2代风格的改版",
+            "icon": "tat",
+            "version_type": "zh_revision",
+            "version": "TAT 3.9.9",
+            "size": 352.92,
+            "execute_name": "PlantsVSZombies.exe",
+            "is_recommend": false,
+            "is_new": false,
+            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/P59N5pMT"
+        },
+        {
+            "name": "植物大战僵尸 β版 v6.30",
+            "description": "修改了游戏的一些特性，并且还内置了十多页的小游戏！",
+            "icon": "beta",
+            "version_type": "zh_revision",
+            "version": "β 6.30",
+            "size": 38.81,
+            "execute_name": "beta6.30.exe",
+            "is_recommend": false,
+            "is_new": false,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouv.com/i1KUz3cp6osj&pwd=ftun"
+        },
+        {
+            "name": "植物大战僵尸 95版",
+            "description": "历经95次魔改的版本",
+            "icon": "ninefive",
+            "version_type": "zh_revision",
+            "version": "Version 95",
+            "size": 27.36,
+            "execute_name": "PlantsVsZombies.exe",
+            "is_recommend": false,
+            "is_new": false,
+            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouv.com/i2oiG3cp6t4f&pwd=87bx"
         },
         {
             "name": "胆小菇之梦",
@@ -219,30 +243,6 @@
             "is_recommend": false,
             "is_new": false,
             "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/dQlN5p0L"
-        },
-        {
-            "name": "植物大战僵尸 β版 v6.66",
-            "description": "β版目前最新测试版，有一些Bug，不过能体验到一些新内容！",
-            "icon": "beta",
-            "version_type": "zh_revision",
-            "version": "β 6.66-Test.31",
-            "size": 41.3,
-            "execute_name": "beta6.66.test31.ClickToPlay.exe",
-            "is_recommend": false,
-            "is_new": false,
-            "url": "https://lz.qaiu.top/parser?url=https://hhzyx.lanzouv.com/iXlvE3cp6qha&pwd=go3a"
-        },
-        {
-            "name": "植物大战僵尸 时空环游之旅",
-            "description": "2代风格的改版",
-            "icon": "tat",
-            "version_type": "zh_revision",
-            "version": "TAT 3.9.9",
-            "size": 352.92,
-            "execute_name": "PlantsVSZombies.exe",
-            "is_recommend": false,
-            "is_new": false,
-            "url": "https://lz.qaiu.top/parser?url=https://www.ilanzou.com/s/P59N5pMT"
         }
     ],
     "trainer": [
